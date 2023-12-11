@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: auto;
+  background-color: hsla(0, 0%, 98%, 0.753);
+  overflow: hidden;
+}
+
+.top-layer {
+  margin: auto;
+  width: 540px;
+  text-align: center;
+}
+
+.titles {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titles .light {
+  letter-spacing: 1px;
+  font-size: 31px;
+  color: hsl(240, 2%, 57%);
+}
+
+.titles .grey {
+  color: hsl(234, 12%, 34%);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.top-title {
+  color: hsl(229, 6%, 66%);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom-layer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card {
+  padding: 20px;
+  max-width: 300px;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  padding-right: 30px;
+  border-top-style: solid;
+}
+
+.card p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+}
+
+.card-left {
+  border-top-color: hsl(212, 91%, 79%);
+}
+
+.card-top-middle {
+  margin-bottom: 20px;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.card-bottom-middle {
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.card-right {
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.wrap {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image img {
+  float: right;
+  width: 60px;
+  height: 60px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1100px) {
+  body {
+    overflow: auto;
+    overflow-x: hidden;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+
+  .top-layer {
+    width: 450px;
+  }
+  .top-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .titles {
+    margin-top: 90px;
+  }
+  .card-right {
+    margin-bottom: 30px;
+  }
+  .card {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .card-left {
+    width: 800px;
+  }
+
+  .light {
+    font-size: 10px;
+  }
+
+  .bottom-layer {
+    display: flex;
+    flex-direction: column;
+  }
+}
